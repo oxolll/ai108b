@@ -21,7 +21,7 @@ def gradientDescendent(f,p0,step=0.01):
         gp = grad(f,p)
         glen = norm(gp)
         print('{:d}:p={:s} f(p)={:.3f} gp={:s} glen={:.5f}'.format(i,str(p),fp,str(gp),glen))
-        if glen <= 0.00001:
+        if i>3000:#glen <= 0.00001:
             break
         gstep = np.multiply(gp, -1*step)
         p += gstep

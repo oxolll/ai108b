@@ -12,13 +12,13 @@ B = np.array([0.0,0,0,1]).transpose()
 def f(p):
     X = p
     Y = A.dot(X)
-    return np.linalg.norm(Y-B,1)
+    return np.linalg.norm(Y-B,2)
 
 def sig(x):
-    s = 1 / (1 + np.exp(-x))
+    s = 1.0 / (1.0+ np.exp(-x))
     return s
 
-p = np.array([0.0,0,0])
+p = np.array([0.0,0.0,0.0])
 p = gd.gradientDescendent(f,p,step=0.01)
 
 print("                              ")
@@ -38,23 +38,23 @@ inputArr1 = np.array([[0.0,0],
                     [1,0],
                     [1,1]])                    
 
-ans = np.array([0.0,0,0,0])
+ans = np.array([0.0,0.0,0.0,0.0])
 ###print("{}".format(inputArr[2][1]))
 
 #print("{}".format(inputArr[1][1]*xy[1]))
 for i in range(1,5):
     #print("{}".format(i))
-    for j in range(1,3):
+    for j in range(1,2):
         inputArr[i-1][j-1] = inputArr[i-1][j-1] * xy[j-1]
         #print("{}",inputArr[i-1][j-1])
 
 for i in range(1,5):
-        ans[i-1] = inputArr[i-1][0] + inputArr[i-1][1] + b
+        ans[i-1] = sig(inputArr[i-1][0] + inputArr[i-1][1] + b)
 
     #B = np.dot(inputArr[i],xy) + b
 print("inputs: \n{}".format(ans))
 #print("f(x,y,b)= ||(A·X)-B|| :\n{}".format(B))
-print("sig(f(x,y,b)) = \n{}".format(sig(ans)))
+print("sig(f(x,y,b)) = \n{}".format(ans))
 
 #ans = []
 for i in range(1,5):
