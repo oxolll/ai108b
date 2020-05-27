@@ -322,7 +322,7 @@ def minimax(state, depth, player):
 
 ## 補充
 目錄解釋:\
-[OOXX_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4/OOXX_ai.py) 為使用 minimax() 的程式\
-[OOXX_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4/OOXX_noai.py) 為僅使用 位置權重的 List 來決定\
-[reference_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4/reference_ai.py) 為 [ai參考](https://github.com/Cledersonbc/tic-tac-toe-minimax/blob/master/py_version/minimax.py)\
-[reference_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4/reference_noai.py) 為 [無ai參考](https://www.itread01.com/content/1550310855.html)
+[OOXX_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_ai.py) 為使用 minimax() 的程式\
+[OOXX_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_noai.py) 為僅使用 位置權重的 List 來決定\
+[reference_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_ai.py) 為 [ai參考](https://github.com/Cledersonbc/tic-tac-toe-minimax/blob/master/py_version/minimax.py)\
+[reference_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_noai.py) 為 [無ai參考](https://www.itread01.com/content/1550310855.html)
