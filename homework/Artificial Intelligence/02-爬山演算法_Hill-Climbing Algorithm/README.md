@@ -17,6 +17,6 @@
 ● 山脊：搜尋可能會在 "山脊的兩面來回震盪"，前進步伐很小。 \
 
 ## Reference
-[參考](https://www.itread01.com/content/1543233666.html)
-[參考](http://ccckmit.wikidot.com/so:hillclimbing)
+[參考1](https://www.itread01.com/content/1543233666.html)\
+[參考2](http://ccckmit.wikidot.com/so:hillclimbing)\
 [參考3](http://programmermagazine.github.io/201405/htm/focus1.html)
