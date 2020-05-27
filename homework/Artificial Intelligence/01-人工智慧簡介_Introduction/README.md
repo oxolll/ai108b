@@ -1,7 +1,7 @@
 # 人工智慧 Artificial Intelligence
 
 ## Introduction 
-AI 以電腦模擬人類的智慧行為\
+AI 以電腦模擬人類的智慧行為
 
 ## Method
 ● 搜尋 : DFS, BFS, Best-FS, A*, Min-Max+α-β Cut, Dynamic Programming\
