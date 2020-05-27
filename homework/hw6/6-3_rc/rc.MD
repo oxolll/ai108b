@@ -13,3 +13,4 @@ print("dsolve(C*Derivative(V(t))+V(t)/R ,V(t))=", ans.doit())
 ```
 $ py rc.py
 dsolve(C*Derivative(V(t))+V(t)/R ,V(t))= Eq(V(t), exp((C1 - t/R)/C))
+```
