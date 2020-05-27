@@ -3,7 +3,7 @@
 ## Introduction 
 AI 以電腦模擬人類的智慧行為\
 
-##　Method
+## Method
 ● 搜尋 : DFS, BFS, Best-FS, A*, Min-Max+α-β Cut, Dynamic Programming\
 ● 最佳化 : 貪婪式演算法(Greedy Algorithm), Simulate Annealing, Genetic Algorithm\
 ● 邏輯推論 : Boolean Logic, First-Order Logic, Probabilistic Logic, Fuzzy Logic\
