@@ -325,4 +325,5 @@ def minimax(state, depth, player):
 [OOXX_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_ai.py) 為使用 minimax() 的程式\
 [OOXX_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_noai.py) 為僅使用 位置權重的 List 來決定\
 [reference_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_ai.py) 為 [ai參考](https://github.com/Cledersonbc/tic-tac-toe-minimax/blob/master/py_version/minimax.py)\
-[reference_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_noai.py) 為 [無ai參考](https://www.itread01.com/content/1550310855.html)
+[reference_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_noai.py) 為 [無ai參考](https://www.itread01.com/content/1550310855.html)\
+ps: 最近github不太穩，超連結容易出錯，多開幾次應該就可以進入!!
