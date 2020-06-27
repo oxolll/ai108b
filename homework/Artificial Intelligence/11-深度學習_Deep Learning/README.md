@@ -5,7 +5,7 @@
 - RNN
 - GAN
 ### CNN(卷積神經網路)
-- 用於圖像辨識\
+- 用於圖像辨識
 - 從初始特徵，捲積出上層特徵 \
 [卷積神經網路的運作原理](https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_convolutional_neural_networks_work.html)
 ### RNN(循環神經網路)
