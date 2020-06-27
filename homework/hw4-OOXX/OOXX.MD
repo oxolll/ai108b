@@ -4,6 +4,23 @@
 使用了minimax演算法進行自我對局尋最佳解\
 在這個遊戲內，玩家無法勝利，因為電腦總是尋求最佳解\
 也就是在這個勝負當中除了平局，就是電腦獲勝。
+## 程式碼
+[OOXX_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_ai.py) 此為主要專案程式碼\
+在顯示表現的程式碼部分同參考資料\
+(1)[ai參考](https://github.com/Cledersonbc/tic-tac-toe-minimax/blob/master/py_version/minimax.py)\
+(2)[無ai參考](https://www.itread01.com/content/1550310855.html)\
+● 主程式架構並無特別變更\
+● 刪去了不影響運行的程式碼\
+● 修改了大部分主程式碼的內文\
+● 更改了資料處理的陣列，由二維陣列修改成使用一維陣列進行運算的模式\
+● 對於參考資料的理解為100%\
+● 對修改後的程式碼的理解為100%\
+[OOXX_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_noai.py) 此為練習製作僅使用對局搜尋的程式碼\
+● 主程式架構並無特別變更\
+● 刪去了不影響運行的程式碼\
+● 修改了部分主程式碼的內文\
+● 對於參考資料的理解為100%\
+● 對修改後的程式碼的理解為100%
 
 ## RESULT
 以下為對局兩盤，分別是玩家先手(O)、玩家後手(X)
@@ -325,4 +342,5 @@ def minimax(state, depth, player):
 [OOXX_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_ai.py) 為使用 minimax() 的程式\
 [OOXX_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/OOXX_noai.py) 為僅使用 位置權重的 List 來決定\
 [reference_ai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_ai.py) 為 [ai參考](https://github.com/Cledersonbc/tic-tac-toe-minimax/blob/master/py_version/minimax.py)\
-[reference_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_noai.py) 為 [無ai參考](https://www.itread01.com/content/1550310855.html)
+[reference_noai.py](https://github.com/oxolll/ai108b/blob/master/homework/hw4-OOXX/reference_noai.py) 為 [無ai參考](https://www.itread01.com/content/1550310855.html)\
+ps: 最近github不太穩，超連結容易出錯，多開幾次應該就可以進入!!
